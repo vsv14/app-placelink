@@ -2,7 +2,7 @@ const express = require('express')
 const config = require('config')
 const db = require('./models')
 const path = require('path')
-const helmet = require('helmet')
+
 const session = require('express-session'),
     flash = require('connect-flash')
 
@@ -22,15 +22,13 @@ app.use(session(
 app.use(flash())
 
 
-// app.use(helmet())
-
 
     app.use(express.static(path.join(__dirname, 'client/build')))
     app.get('/?home', (req, res)=>{
         res.sendFile(path.resolve(__dirname, 'client/build', 'index.html'))
     })
     app.get('/detail/:id', (req, res)=>{
-        res.redirect('/links')
+        res.sendFile(path.resolve(__dirname, 'client/build', 'index.html'))
     })
 
     app.get('/links', (req, res)=>{
@@ -56,8 +54,8 @@ if(process.env.NODE_ENV === 'production'){
         res.sendFile(path.resolve(__dirname, 'client/build', 'index.html'))
     })
     
-    app.get('/detail/*', (req, res)=>{
-        res.redirect('/links')
+    app.get('/detail/:id', (req, res)=>{
+        res.sendFile(path.resolve(__dirname, 'client/build', 'index.html'))
     })
 
     app.get('/links', (req, res)=>{
