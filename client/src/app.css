@@ -1,0 +1,142 @@
+input.yellow-input {
+    padding-left: 5px;
+    border-bottom: 2px solid rgb(0, 67, 112)!important;    
+}
+
+input.yellow-input::placeholder {
+    color: #00000054;
+    padding-left: 5px;
+    font-size: small;
+    
+}
+
+input.yellow-input + label {
+    color: black!important;
+    font-weight: bold;
+    font-size: large;
+}
+
+input.yellow-input:focus {
+    padding-left: 10px;
+    border-bottom: 2px solid #62da00!important;
+}
+
+.box {
+    margin-top: 35px;
+}
+
+.box2 {
+    margin-top: 5rem;
+}
+
+.smbox {
+    margin-top: 25px;
+}
+
+.row_mt{
+    margin-top: 5px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.redbrdr {
+    
+    border: 1px solid red;
+}
+
+.brdr {
+    border: 1px solid #64dd17 ;
+}
+
+.bold{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.title {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.mtxt {
+    font-weight: 500;
+}
+
+.undrln {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+table {
+    min-width: 700px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+th:nth-child(4), th:nth-child(5), td:nth-child(4), td:nth-child(5){
+    text-align: center;
+    width: 80px;
+    vertical-align: middle;
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 60px;
+    vertical-align: middle;
+}
+
+ td {
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+a {
+    word-wrap: break-word;
+}
+
+button {
+    margin: 10px 0 0 10px;
+}
+
+.bttn {
+    background-color: #4285f4;
+}
+
+.google-btn {
+    width: 450px;
+    height: 43px;
+    background-color: #4285f4;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    text-align: center;
+    display: table;
+    
+  }
+  
+  .google-icon-wrapper{
+      position: absolute;
+      margin: 3px;
+      width: 36px;
+      height: 36px;
+      border-radius: 2px;
+      background-color: #fff;
+    }
+  
+  .btn-text {
+      color: #ffffff;
+      font: small-caption;
+      font-size:1.1em;
+      font-weight: 600;
+      display: table-cell;
+      vertical-align: middle;
+      padding-bottom: 4px;
+    }
+    
+    
