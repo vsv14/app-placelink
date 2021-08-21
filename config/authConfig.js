@@ -1,7 +1,7 @@
 module.exports = {
   
     jwt: {
-      secret: "bekoder-secret-key",
+      secret: "becoder-secret-key",
       tokens: {
         access: {
           type: 'access',

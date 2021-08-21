@@ -3,11 +3,11 @@
     "port": 5000,
 
     "dbConfig": {
-        "HOST": "bfafcxx6bqyafa5trszy-postgresql.services.clever-cloud.com",
+        "HOST": "",
         "PORT": 5432,
-        "USER": "ujrucqphkzgpqtqdoqxe",
-        "PASSWORD": "1BVRg1bpsujIdNqXYriY",
-        "DB": "bfafcxx6bqyafa5trszy",
+        "USER": "",
+        "PASSWORD": "",
+        "DB": "",
         "dialect": "postgres",
         
         "pool": {
