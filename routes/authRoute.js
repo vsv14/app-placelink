@@ -20,8 +20,8 @@ router.use(passport.session())
 passport.use(
     new GoogleStrategy(
       {
-        clientID: "1044337040182-h3usaogp4n5k702osdgkgmgjdc7hpidm.apps.googleusercontent.com", //YOUR GOOGLE_CLIENT_ID
-        clientSecret: 'aVtV-6xur23DvpHD6XLHh_x0', //YOUR GOOGLE_CLIENT_SECRET
+        clientID: "", //YOUR GOOGLE_CLIENT_ID
+        clientSecret: '', //YOUR GOOGLE_CLIENT_SECRET
         callbackURL:
           'https://app-placelink.herokuapp.com/api/auth/google/callback',
           passReqToCallback: true,
